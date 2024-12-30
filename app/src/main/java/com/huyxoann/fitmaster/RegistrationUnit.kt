@@ -13,6 +13,8 @@ object RegistrationUnit {
     * */
 
     fun registerUser(username: String, password: String, confirmPassword: String):Boolean{
+        if(username.isEmpty())
+            return false;
         return true;
     }
 }
