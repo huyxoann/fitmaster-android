@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             FitmasterTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Huy",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
